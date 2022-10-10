@@ -7,10 +7,10 @@ Programa su "production" web service'o adresu <code>https://taxfree-ws.vmi.lt:88
 20001 - Šio paslaugos gavėjo šio metodo kreipinys su tokiu RequestId jau yra</br>
 20005 - Nerasta deklaracija su nurodytu DocID numeriu</br>
 20003 - Siuntėjo identifikacinis numeris (kodas) nerastas.
- </code>
+</code>
 
 <br>
-Tačiau su "testiniu" adresu <code></code>, išmetama <code>WebException</code> ir tekstas:
+Tačiau su "testiniu" adresu <code>https://taxfree-tst-ws.vmi.lt:8844/VATRefundforForeignTravelerTR</code>, išmetama <code>WebException</code> ir tekstas:
 
 <code>
 Unable to connect to the remote server</br>
