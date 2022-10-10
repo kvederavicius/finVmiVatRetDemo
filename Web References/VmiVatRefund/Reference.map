@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///C:/Users/Simas.FVS/Desktop/[1560]/webRefs/VATRefundforForeignTravelerTR.wsdl" filename="VATRefundforForeignTravelerTR.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/Users/Simas.FVS/Desktop/[1560]/webRefs/TFDeclaration.xsd" filename="TFDeclaration.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/Users/Simas.FVS/Desktop/[1560]/webRefs/TFSimpleTypes.xsd" filename="TFSimpleTypes.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="file:///C:/Users/Simas.FVS/Desktop/[1560]/webRefs/TFCountryTypes.xsd" filename="TFCountryTypes.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>
