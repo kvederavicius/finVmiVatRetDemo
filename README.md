@@ -1,18 +1,18 @@
 # finVmiVatRetDemo
 <b>Finvalda - VMI - Vat Return - TEST web service issues</b>
 
-Programa su "production" web service'o adresu <code>https://taxfree-ws.vmi.lt:8843/VATRefundforForeignTravelerTR</code> grąžina tokius rezultatus:
+> Programa su "production" web service'o adresu `https://taxfree-ws.vmi.lt:8843/VATRefundforForeignTravelerTR` grąžina tokius rezultatus:
 
-<code>
-20001 - Šio paslaugos gavėjo šio metodo kreipinys su tokiu RequestId jau yra</br>
-20005 - Nerasta deklaracija su nurodytu DocID numeriu</br>
+```
+20001 - Šio paslaugos gavėjo šio metodo kreipinys su tokiu RequestId jau yra
+20005 - Nerasta deklaracija su nurodytu DocID numeriu
 20003 - Siuntėjo identifikacinis numeris (kodas) nerastas.
-</code>
+```
 
-<br>
-Tačiau su "testiniu" adresu <code>https://taxfree-tst-ws.vmi.lt:8844/VATRefundforForeignTravelerTR</code>, išmetama <code>WebException</code> ir tekstas:
 
-<code>
-Unable to connect to the remote server</br>
+> Tačiau su "testiniu" adresu `https://taxfree-tst-ws.vmi.lt:8844/VATRefundforForeignTravelerTR`, išmetama `WebException` ir tekstas:
+
+```
+Unable to connect to the remote server
 No connection could be made because the target machine actively refused it 195.182.64.196:8844
-</code>
+```
